@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Form = React.memo(({ handleSubmit, value, setValue }) => {
+  console.log('Form');
   const handleChange = (e) => {
     setValue(e.target.value);
   };
